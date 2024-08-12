@@ -1,4 +1,6 @@
 node {
+
+  agent any
   stage('Build') {
             steps {
                 echo 'building docker image'
